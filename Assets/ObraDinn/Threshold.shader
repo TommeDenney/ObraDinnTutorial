@@ -3,7 +3,7 @@ Shader "Effects/Threshold"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        _BG ("Background", Color) = (0,0,0,0)
+        _BG ("Background", Color) = (1,0,0,0)
         _FG ("Foreground", Color) = (1,1,1,1)
     }
     SubShader

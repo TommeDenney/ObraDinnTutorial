@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\TheFirstPerson\Code\Player\TFPExtension.cs" />
      <Compile Include="Assets\TheFirstPerson\Code\Helper\ConditionalHideAttribute.cs" />
      <Compile Include="Assets\TheFirstPerson\Code\ExampleExtensions\Debug\DebugLine.cs" />
@@ -53,7 +54,11 @@
      <Compile Include="Assets\TheFirstPerson\Code\ExampleExtensions\UnwalkableColliders\UnwalkableColliders.cs" />
      <Compile Include="Assets\TheFirstPerson\Code\ExampleExtensions\FootstepSystem\FootstepGroup.cs" />
      <Compile Include="Assets\TheFirstPerson\Code\Player\TFPData.cs" />
+     <Compile Include="Assets\Scripts\YenCoinManager.cs" />
      <Compile Include="Assets\TheFirstPerson\Code\Player\TFPInfo.cs" />
+     <Compile Include="Assets\Scripts\FiveYenCoinManger.cs" />
+     <Compile Include="Assets\RestartLevel.cs" />
+     <Compile Include="Assets\FinishLevel.cs" />
      <None Include="Assets\ObraDinn\Dither.shader" />
      <None Include="Assets\ObraDinn\Threshold.shader" />
      <None Include="Assets\ObraDinn\ObraDinnSurface.shader" />
