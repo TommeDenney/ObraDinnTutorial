@@ -8,6 +8,7 @@ TagManager:
   - +5yenScore
   - +10yenScore
   - +50yenScore
+  - vending machine
   layers:
   - Default
   - TransparentFX
@@ -20,8 +21,8 @@ TagManager:
   - 
   - 
   - pickUp
-  - 
-  - 
+  - large vending machine
+  - small vending machine
   - 
   - 
   - 

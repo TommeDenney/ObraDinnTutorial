@@ -3,7 +3,9 @@ guid: 904400ddb7a3b004eac3391d295ae5ef
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - nextSceneGameObject: {fileID: 6076753726392977692, guid: bfc02be82c07f3445b5c9611f5b50131, type: 3}
+  - coinPickUpSound: {fileID: 6470430623406299511, guid: 6cf15f0ea95df36469df172e5896dcd3, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

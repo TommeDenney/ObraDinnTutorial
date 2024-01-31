@@ -6,6 +6,7 @@ using System.Collections.Generic;
 //Modified by: -
 namespace TheFirstPerson.Helper
 {
+    
     [CustomPropertyDrawer(typeof(ConditionalHideAttribute))]
     public class ConditionalHidePropertyDrawer : PropertyDrawer
     {

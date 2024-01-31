@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class YenCoinManager : MonoBehaviour
 {
     [SerializeField] private GameObject nextSceneGameObject;
+    [SerializeField] private GameObject SecretEndingSceneGameObject = null;
+    [SerializeField] private AudioSource coinPickUpSound;
     
     // private ScoreManager scoreManager;
     public int coinValue;
@@ -34,9 +36,22 @@ public class YenCoinManager : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // ScoreManager.oneYenPickUp = true;
+            coinPickUpSound.Play();
             ScoreManager.AddYenValue(coinValue);
+            
             if (ScoreManager.HasYenToFinish(SceneManager.GetActiveScene().name)) {
                 nextSceneGameObject.gameObject.SetActive(true);
+            }
+            
+
+            
+            if (ScoreManager.HasYenToSecretEndingFinish(SceneManager.GetActiveScene().name))
+            {
+                if (SecretEndingSceneGameObject != null) {
+                    Debug.Log(SecretEndingSceneGameObject);
+
+                    SecretEndingSceneGameObject?.gameObject?.SetActive(true);
+                }
             }
             Destroy(this.gameObject);
             
