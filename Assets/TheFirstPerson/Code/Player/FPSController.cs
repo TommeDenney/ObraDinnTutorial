@@ -319,6 +319,7 @@ namespace TheFirstPerson
                 originalMaxJH = maxJumpHeight;
                 originalMinJH = minJumpHeight;
             }
+            
 
 
             ExecuteExtension(ExtFunc.PreUpdate);
